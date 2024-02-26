@@ -1,0 +1,20 @@
+{
+  "name": "osl_pokedex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npx tailwindcss -i ./public/styles/styles.css -o ./public/styles/output.css --watch\" \"nodemon app.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "tailwindcss": "^3.4.1"
+  }
+}
